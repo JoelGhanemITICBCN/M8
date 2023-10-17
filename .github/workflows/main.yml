@@ -3,8 +3,8 @@ name: Provar_API
 on:
   push:
     branches:
-      - main  # Puedes cambiar 'main' por el nombre de tu rama principal
-
+      - main  
+      
 jobs:
   prova-api:
     runs-on: ubuntu-latest
