@@ -20,8 +20,7 @@ jobs:
 
     - name: Instala Flask
       run: |
-        python -m pip install --upgrade pip
-        pip install Flask 
+        python -m pip install flask
 
     - name: Inicia les aplicacions 
       run: |
