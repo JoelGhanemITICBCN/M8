@@ -3,7 +3,7 @@ name: Provar_API
 on:
   push:
     branches:
-      - main  # Puedes cambiar 'main' por el nombre de tu rama principal
+      - main 
 
 jobs:
   prova-api:
@@ -14,13 +14,13 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Instala Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4
       with:
         python-version: 3.8
 
     - name: Instala Flask
       run: |
-        python -m pip install flask
+        pip install flask
 
     - name: Inicia les aplicacions 
       run: |
